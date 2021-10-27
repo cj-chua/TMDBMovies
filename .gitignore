@@ -1,6 +1,7 @@
 DerivedData/*
 
-xcuserdata/*
+*/xcuserdata/*
+Pods/Pods.xcodeproj/xcuserdata/*
 *UserInterfaceState.xcuserstate
 xcshareddata/*
 
