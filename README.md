@@ -9,8 +9,11 @@ Demo app to test out TMDB movies api
 - Change build target to `TMDBMovies`
 
 - Enter your TMDB API key in `TMDBInfo.plist`. If you don't have one, create a developer account at https://www.themoviedb.org/
+```
+# In TMDBInfo.plist
 
-`APIKEY  String  <your api key>`
+APIKEY  String  <your api key>
+```
 
 - Run the app
 
