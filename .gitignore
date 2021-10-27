@@ -1,0 +1,9 @@
+DerivedData/*
+
+xcuserdata/*
+*UserInterfaceState.xcuserstate
+xcshareddata/*
+
+*.DS_Store
+
+*~

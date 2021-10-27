@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct TMDBMoviesApp: App {
+    
+    // view model
+    @StateObject var trendingMovies = TrendingMovies()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            /*
+             inject view model as an environment object so that it's
+             accesible by parent and children views
+             */
+            TrendingMoviesView().environmentObject(trendingMovies)
         }
     }
 }
