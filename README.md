@@ -18,8 +18,8 @@ APIKEY  String  <your api key>
 - Run the app
 
 # Notes
-- When developing the app my main focus is on responsiveness. I've made sure that remote api calls don't interrupt with the UI.
-- I've used UserDefaults as the persistent storage for this coding challenge. It's not the best option here but it gets the job done, 
-since the data we're trying to persist is just a boolean. If we were to scale it I would probably go for core data or sqlite database.
+- When developing the app my main focus is on responsiveness. I've made sure that remote api calls don't interfere with the UI.
+- I've used UserDefaults as the persistent storage for this coding challenge. It's not the best choice but it gets the job done for this challenge, 
+since the data we're trying to persist is just a bunch of booleans. If we were to scale it I would probably go for core data or sqlite database.
 Personally I prefer https://github.com/groue/GRDB.swift since I've had experience using it.
 - There are many ways to pass data around in an app. Let me know if is a better approach!
